@@ -2,7 +2,7 @@ function timer() {
     
     var nowDate = new Date();
 
-    var achiveDate = new Date(2019,6,12,22,20,0); //Year / Month(0 - January) / Date / Hours / Minutes / Seconds
+    var achiveDate = new Date(2019,6,19,22,20,0); //Year / Month(0 - January) / Date / Hours / Minutes / Seconds
 
     var result = (achiveDate - nowDate)+1000;
     if (result < 0) {
